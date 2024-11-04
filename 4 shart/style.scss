@@ -1,0 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   transition: background-color 0.3s;
+}
+
+.container {
+   margin: 260px auto;
+   padding: 0;
+   width: 1200px;
+}
+
+.centerUchun {
+   height: 100%;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+   gap: 50px;
+
+}
+
+
+#btn {
+   font-size: 30px;
+   border: 2px black solid;
+   width: 300px;
+   margin: 0 auto;
+   height: 105px;
+   border-radius: 10px;
+   background: #f23;
+   transition: 0.3s;
+   &:hover {
+      background: #f77;
+
+   }
+}
+
+#btn1 {
+   display: none;
+   font-size: 30px;
+   border: 2px black solid;
+   width: 300px;
+   margin: 0 auto;
+   height: 105px;
+   border-radius: 10px;
+   background: #f23;
+   transition: 0.3s;
+   &:hover {
+      background: #f77;
+
+   }
+}
